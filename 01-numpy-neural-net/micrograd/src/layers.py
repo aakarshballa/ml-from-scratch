@@ -66,9 +66,6 @@ class Value:
 
         for v in reversed(topo):
             v._backward()
-                    
-
-
 
 class Neuron:
     def __init__(self, nin):
